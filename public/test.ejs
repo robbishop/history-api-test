@@ -1,0 +1,17 @@
+<html>
+    <head><title>History API</title></head>
+    <body>
+			<h3>History API Test (<%=example%>) - click a few items, then test back/forward buttons, then navigate away and then come back to this page</h3>
+			<ul>
+				<li><a class="hist-click" href="/<%=example%>/item1">Item 1</a></li>
+				<li><a class="hist-click" href="/<%=example%>/item2">Item 2 </a></li>
+				<li><a class="hist-click" href="/<%=example%>/item3">Item 3</a></li>
+				<li><a class="hist-click" href="/<%=example%>/item4">Item 4</a></li>
+			</ul>
+			<h3>The Dynamic Content Method: <%=example%></h3>
+			<div id="content"><%-content%></div>
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+			<script src='/<%=example%>/load.js'></script>
+			<script src='/history.js'></script>
+	</body>
+</html>
